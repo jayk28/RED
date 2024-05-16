@@ -14,7 +14,7 @@ pipeline{
             steps {
                 echo "hi"  
             }
-        } stage('giiit'){
+        } stage('giiit') {
             steps {
                 echo "hi"  
             }
