@@ -1,18 +1,18 @@
 pipeline{
     stages{
-        stage(`git`){
+        stage('git'){
             step{
                 echo "hi"  
             }
-        } stage(`git`){
+        } stage('git'){
             step{
                 echo "hi"  
             }
-        } stage(`git`){
+        } stage('git'){
             step{
                 echo "hi"  
             }
-        } stage(`git`){
+        } stage('git'){
             step{
                 echo "hi"  
             }
