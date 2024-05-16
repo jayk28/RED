@@ -1,21 +1,22 @@
 pipeline{
     agent any
+    
     stages{
-        stage('git'){
-            steps{
-                //echo "hi"  
+        stage('git') {
+            steps {
+                echo "hi"  
             }
-        } stage('giit'){
-            steps{
-                //echo "hi"  
+        } stage('giit') {
+            steps {
+                echo "hi"  
+            }
+        } stage('giiit') { 
+            steps {
+                echo "hi"  
             }
         } stage('giiit'){
-            steps{
-                //echo "hi"  
-            }
-        } stage('giiit'){
-            steps{
-                /echo "hi"  
+            steps {
+                echo "hi"  
             }
         }  
         
