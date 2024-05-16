@@ -2,19 +2,19 @@ pipeline{
     agent any
     stages{
         stage('git'){
-            step{
+            steps{
                 //echo "hi"  
             }
         } stage('giit'){
-            step{
+            steps{
                 //echo "hi"  
             }
         } stage('giiit'){
-            step{
+            steps{
                 //echo "hi"  
             }
         } stage('giiit'){
-            step{
+            steps{
                 /echo "hi"  
             }
         }  
